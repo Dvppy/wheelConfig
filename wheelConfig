@@ -1,0 +1,1983 @@
+Config.WheelCategories = {
+    { label = 'Sport',              id = 0 },
+    { label = 'Muscle',             id = 1 },
+    { label = 'Lowrider',           id = 2 },
+    { label = 'SUV',                id = 3 },
+    { label = 'Offroad',            id = 4 },
+    { label = 'Tuner',              id = 5 },
+    { label = 'High End',           id = 7 },
+    --{ label = 'Benny\'s Originals', id = 8 },
+    --{ label = 'Benny\'s Bespoke',   id = 9 },
+    --{ label = 'Open Wheel',         id = 10 },
+    { label = 'Street',             id = 11 },
+    { label = 'Track',              id = 12 },
+}
+
+Config.Wheels = {
+    [0] = {
+        chrono = {
+            title = 'Chrono',
+            wheels = {
+                { title = 'Chrono - Painted', id = 4 },
+                { title = 'Chrono - Chrome', id = 29 },
+            },
+        },
+        cosmo = {
+            title = 'Cosmo',
+            wheels = {
+                { title = 'Cosmo - Painted', id = 17 },
+                { title = 'Cosmo - Chrome', id = 42 },
+            },
+        },
+        dashVIP = {
+            title = 'Dash VIP',
+            wheels = {
+                { title = 'Dash VIP - Painted', id = 18 },
+                { title = 'Dash VIP - Chrome', id = 43 },
+            },
+        },
+        deepFive = {
+            title = 'Deep Five',
+            wheels = {
+                { title = 'Deep Five - Painted', id = 1 },
+                { title = 'Deep Five - Chrome', id = 26 },
+            },
+        },
+        diamonCut = {
+            title = 'Diamon Cut',
+            wheels = {
+                { title = 'Diamon Cut - Painted', id = 3 },
+                { title = 'Diamon Cut - Chrome', id = 28 },
+            },
+        },
+        duper7 = {
+            title = 'Duper 7',
+            wheels = {
+                { title = 'Duper 7 - Painted', id = 12 },
+                { title = 'Duper 7 - Chrome', id = 37 },
+            },
+        },
+        endoV1 = {
+            title = 'Endo V1',
+            wheels = {
+                { title = 'Endo V1 - Painted', id = 10 },
+                { title = 'Endo V1 - Chrome', id = 35 },
+            },
+        },
+        endoV2 = {
+            title = 'Endo V2',
+            wheels = {
+                { title = 'Endo V2 - Painted', id = 23 },
+                { title = 'Endo V2 - Chrome', id = 48 },
+            },
+        },
+        ferociRR = {
+            title = 'Feroci RR',
+            wheels = {
+                { title = 'Feroci RR - Painted', id = 5 },
+                { title = 'Feroci RR - Chrome', id = 30 },
+            },
+        },
+        fiftyNine = {
+            title = 'Fifty Nine',
+            wheels = {
+                { title = 'Fifty Nine - Painted', id = 6 },
+                { title = 'Fifty Nine - Chrome', id = 31 },
+            },
+        },
+        gtOne = {
+            title = 'GT One',
+            wheels = {
+                { title = 'GT One - Painted', id = 11 },
+                { title = 'GT One - Chrome', id = 36 },
+            },
+        },
+        groundRide = {
+            title = 'GroundRide',
+            wheels = {
+                { title = 'GroundRide - Painted', id = 14 },
+                { title = 'GroundRide - Chrome', id = 39 },
+            },
+        },
+        iceKid = {
+            title = 'Ice Kid',
+            wheels = {
+                { title = 'Ice Kid - Painted', id = 19 },
+                { title = 'Ice Kid - Chrome', id = 44 },
+            },
+        },
+        inferno = {
+            title = 'Inferno',
+            wheels = {
+                { title = 'Inferno - Painted', id = 25 },
+            },
+        },
+        lozspeedMKV = {
+            title = 'Lozspeed MK V',
+            wheels = {
+                { title = 'Lozspeed MK V - Painted', id = 2 },
+                { title = 'Lozspeed MK V - Chrome', id = 27 },
+            },
+        },
+        organicType0 = {
+            title = 'Organic Type 0',
+            wheels = {
+                { title = 'Organic Type 0 - Painted', id = 9 },
+                { title = 'Organic Type 0 - Chrome', id = 34 },
+            },
+        },
+        mercie = {
+            title = 'Mercie',
+            wheels = {
+                { title = 'Mercie - Painted', id = 7 },
+                { title = 'Mercie - Chrome', id = 32 },
+            },
+        },
+        ruffWeld = {
+            title = 'Ruff Weld',
+            wheels = {
+                { title = 'Ruff Weld - Painted', id = 20 },
+                { title = 'Ruff Weld - Chrome', id = 45 },
+            },
+        },
+        sRacer = {
+            title = 'S Racer',
+            wheels = {
+                { title = 'S Racer - Painted', id = 15 },
+                { title = 'S Racer - Chrome', id = 40 },
+            },
+        },
+        splitSix = {
+            title = 'Split Six',
+            wheels = {
+                { title = 'Split Six - Painted', id = 24 },
+                { title = 'Split Six - Chrome', id = 49 },
+            },
+        },
+        superFive = {
+            title = 'Super Five',
+            wheels = {
+                { title = 'Super Five - Painted', id = 22 },
+                { title = 'Super Five - Chrome', id = 47 },
+            },
+        },
+        syntheicZ = {
+            title = 'Syntheic Z',
+            wheels = {
+                { title = 'Syntheic Z - Painted', id = 8 },
+                { title = 'Syntheic Z - Chrome', id = 33 },
+            },
+        },
+        uzer = {
+            title = 'Uzer',
+            wheels = {
+                { title = 'Uzer - Painted', id = 13 },
+                { title = 'Uzer - Chrome', id = 38 },
+            },
+        },
+        venum = {
+            title = 'Venum',
+            wheels = {
+                { title = 'Venum - Painted', id = 16 },
+                { title = 'Venum - Chrome', id = 41 },
+            },
+        },
+        wanganMaster = {
+            title = 'Wangan Master',
+            wheels = {
+                { title = 'Wangan Master - Painted', id = 21 },
+                { title = 'Wangan Master - Chrome', id = 46 },
+            },
+        },   
+    },
+    [1] = {
+        azreal = {
+            title = 'Azreal',
+            wheels = {
+                { title = 'Azreal - Painted', id = 4 },
+                { title = 'Azreal - Chrome', id = 22 },
+            },
+        },
+        blackTop = {
+            title = 'Black Top',
+            wheels = {
+                { title = 'Black Top - Painted', id = 6 },
+                { title = 'Black Top - Chrome', id = 24 },
+            },
+        },
+        classicFive = {
+            title = 'Classic Five',
+            wheels = {
+                { title = 'Classic Five - Painted', id = 18 },
+            },
+        },
+        dodman = {
+            title = 'Dodman',
+            wheels = {
+                { title = 'Dodman - Painted', id = 15 },
+                { title = 'Dodman - Chrome', id = 33 },
+            },
+        },
+        dragSPL = {
+            title = 'Drag SPL',
+            wheels = {
+                { title = 'Drag SPL - Painted', id = 7 },
+                { title = 'Drag SPL - Chrome', id = 25 },
+            },
+        },
+        dukes = {
+            title = 'Dukes',
+            wheels = {
+                { title = 'Dukes - Painted', id = 1 },
+                { title = 'Dukes - Chrome', id = 19 },
+            },
+        },
+        elJefe = {
+            title = 'El Jefe',
+            wheels = {
+                { title = 'El Jefe - Painted', id = 14 },
+                { title = 'El Jefe - Chrome', id = 32 },
+            },
+        },
+        fiveStar = {
+            title = 'Five Star',
+            wheels = {
+                { title = 'Five Star - Painted', id = 12 },
+                { title = 'Five Star - Chrome', id = 30 },
+            },
+        },
+        fairlie = {
+            title = 'Fairlie',
+            wheels = {
+                { title = 'Fairlie - Painted', id = 10 },
+                { title = 'Fairlie - Chrome', id = 28 },
+            },
+        },
+        kracka = {
+            title = 'Kracka',
+            wheels = {
+                { title = 'Kracka - Painted', id = 3 },
+                { title = 'Kracka - Chrome', id = 21 },
+            },
+        },
+        mecha = {
+            title = 'Mecha',
+            wheels = {
+                { title = 'Mecha - Painted', id = 5 },
+                { title = 'Mecha - Chrome', id = 23 },
+            },
+        },
+        mercenary = {
+            title = 'Mercenary',
+            wheels = {
+                { title = 'Mercenary - Painted', id = 17 },
+                { title = 'Mercenary - Chrome', id = 35 },
+            },
+        },
+        muscleFreak = {
+            title = 'Muscle Freak',
+            wheels = {
+                { title = 'Muscle Freak - Painted', id = 2 },
+                { title = 'Muscle Freak - Chrome', id = 20 },
+            },
+        },
+        oldSchool = {
+            title = 'Old School',
+            wheels = {
+                { title = 'Old School - Painted', id = 13 },
+                { title = 'Old School - Chrome', id = 31 },
+            },
+        },
+        revolver = {
+            title = 'Revolver',
+            wheels = {
+                { title = 'Revolver - Painted', id = 8 },
+                { title = 'Revolver - Chrome', id = 26 },
+            },
+        },
+        sixGun = {
+            title = 'Six Gun',
+            wheels = {
+                { title = 'Six Gun - Painted', id = 16 },
+                { title = 'Six Gun - Chrome', id = 34 },
+            },
+        },
+        spooner = {
+            title = 'Spooner',
+            wheels = {
+                { title = 'Spooner - Painted', id = 11 },
+                { title = 'Spooner - Chrome', id = 29 },
+            },
+        },    
+    },
+    [2] = {
+        bigWorm = {
+            title = 'Big Worm',
+            wheels = {
+                { title = 'Big Worm - Painted', id = 3 },
+                { title = 'Big Worm - Chrome', id = 18 },
+            },
+        },
+        classicRod = {
+            title = 'Classic Rod',
+            wheels = {
+                { title = 'Classic Rod - Painted', id = 10 },
+                { title = 'Classic Rod - Chrome', id = 25 },
+            },
+        },
+        dollar = {
+            title = 'Dollar',
+            wheels = {
+                { title = 'Dollar - Painted', id = 11 },
+                { title = 'Dollar - Chrome', id = 26 },
+            },
+        },
+        dukes = {
+            title = 'dukes',
+            wheels = {
+                { title = 'dukes - Painted', id = 12 },
+                { title = 'dukes - Chrome', id = 27 },
+            },
+        },
+        flare = {
+            title = 'flare',
+            wheels = {
+                { title = 'flare - Painted', id = 15 },
+            },
+        },
+        freshMesh = {
+            title = 'Fresh Mesh',
+            wheels = {
+                { title = 'Fresh Mesh - Painted', id = 6 },
+                { title = 'Fresh Mesh - Chrome', id = 21 },
+            },
+        },
+        gooch = {
+            title = 'Gooch',
+            wheels = {
+                { title = 'Gooch - Painted', id = 14 },
+                { title = 'Gooch - Chrome', id = 29 },
+            },
+        },
+        leadSled = {
+            title = 'Lead Sled',
+            wheels = {
+                { title = 'Lead Sled - Painted', id = 7 },
+                { title = 'Lead Sled - Chrome', id = 22 },
+            },
+        },
+        lowFive = {
+            title = 'Low Five',
+            wheels = {
+                { title = 'Low Five - Painted', id = 13 },
+                { title = 'Low Five - Chrome', id = 28 },
+            },
+        },
+        sevenFives = {
+            title = 'Seven Fives',
+            wheels = {
+                { title = 'Seven Fives - Painted', id = 4 },
+                { title = 'Seven Fives - Chrome', id = 19 },
+            },
+        },
+        splitSix = {
+            title = 'Split Six',
+            wheels = {
+                { title = 'Split Six - Painted', id = 5 },
+                { title = 'Split Six - Chrome', id = 20 },
+            },
+        },
+        superFin = {
+            title = 'Super Fin',
+            wheels = {
+                { title = 'Super Fin - Painted', id = 9 },
+                { title = 'Super Fin - Chrome', id = 24 },
+            },
+        },
+        tripleGolds = {
+            title = 'Triple Golds',
+            wheels = {
+                { title = 'Triple Golds - Painted', id = 2 },
+                { title = 'Triple Golds - Chrome', id = 17 },
+            },
+        },
+        turbine = {
+            title = 'Turbine',
+            wheels = {
+                { title = 'Turbine - Painted', id = 23 },
+                { title = 'Turbine - Chrome', id = 8 },
+            },
+        },
+        wired = {
+            title = 'Wired',
+            wheels = {
+                { title = 'Wired - Painted', id = 1 },
+                { title = 'Wired - Chrome', id = 16 },
+            },
+        }, 
+    },
+    [3] = {
+        benefactor = {
+            title = 'Benefactor',
+            wheels = {
+                { title = 'Benefactor - Painted', id = 1 },
+                { title = 'Benefactor - Chrome', id = 20 },
+            },
+        },
+        bippu = {
+            title = 'Bippu',
+            wheels = {
+                { title = 'Bippu - Painted', id = 3 },
+                { title = 'Bippu - Chrome', id = 22 },
+            },
+        },
+        cognoscenti = {
+            title = 'Cognoscenti',
+            wheels = {
+                { title = 'Cognoscenti - Painted', id = 8 },
+                { title = 'Cognoscenti - Chrome', id = 27 },
+            },
+        },
+        cosmo = {
+            title = 'Cosmo',
+            wheels = {
+                { title = 'Cosmo - Painted', id = 2 },
+                { title = 'Cosmo - Chrome', id = 21 },
+            },
+        },
+        cutter = {
+            title = 'Cutter',
+            wheels = {
+                { title = 'Cutter - Painted', id = 18 },
+                { title = 'Cutter - Chrome', id = 37 },
+            },
+        },
+        dashVIP = {
+            title = 'Dash VIP',
+            wheels = {
+                { title = 'Dash VIP - Painted', id = 17 },
+                { title = 'Dash VIP - Chrome', id = 36 },
+            },
+        },
+        deluxe = {
+            title = 'Deluxe',
+            wheels = {
+                { title = 'Deluxe - Painted', id = 6 },
+                { title = 'Deluxe - Chrome', id = 25 },
+            },
+        },
+        empowered = {
+            title = 'Empowered',
+            wheels = {
+                { title = 'Empowered - Painted', id = 15 },
+                { title = 'Empowered - Chrome', id = 34 },
+            },
+        },
+        extravaganzo = {
+            title = 'Extravaganzo',
+            wheels = {
+                { title = 'Extravaganzo - Painted', id = 13 },
+                { title = 'Extravaganzo - Chrome', id = 32 },
+            },
+        },
+        fagorme = {
+            title = 'Fagorme',
+            wheels = {
+                { title = 'Fagorme - Painted', id = 5 },
+                { title = 'Fagorme - Chrome', id = 24 },
+            },
+        },
+        icedOut = {
+            title = 'Ice dOut',
+            wheels = {
+                { title = 'Ice dOut - Painted', id = 7 },
+                { title = 'Ice dOut - Chrome', id = 26 },
+            },
+        },
+        lozspeedBaller = {
+            title = 'Lozspeed Baller',
+            wheels = {
+                { title = 'Lozspeed Baller - Painted', id = 12 },
+                { title = 'Lozspeed Baller - Chrome', id = 31 },
+            },
+        },
+        lozspeedTen = {
+            title = 'Lozspeed Ten',
+            wheels = {
+                { title = 'Lozspeed Ten - Painted', id = 9 },
+                { title = 'Lozspeed Ten - Chrome', id = 28 },
+            },
+        },
+        obeyRS = {
+            title = 'Obey RS',
+            wheels = {
+                { title = 'Obey RS - Painted', id = 11 },
+                { title = 'Obey RS - Chrome', id = 30 },
+            },
+        },
+        royalSix = {
+            title = 'Royal Six',
+            wheels = {
+                { title = 'Royal Six - Painted', id = 23 },
+                { title = 'Royal Six - Chrome', id = 8 },
+            },
+        },
+        splitSix = {
+            title = 'Split Six',
+            wheels = {
+                { title = 'Split Six - Painted', id = 14 },
+                { title = 'Split Six - Chrome', id = 33 },
+            },
+        }, 
+        sunrise = {
+            title = 'Sunrise',
+            wheels = {
+                { title = 'Sunrise - Painted', id = 16 },
+                { title = 'Sunrise - Chrome', id = 35 },
+            },
+        }, 
+        supernova = {
+            title = 'Supernova',
+            wheels = {
+                { title = 'Supernova - Painted', id = 10 },
+                { title = 'Supernova - Chrome', id = 29 },
+            },
+        }, 
+        vip = {
+            title = 'VIP',
+            wheels = {
+                { title = 'VIP - Chrome', id = 19 },
+            },
+        }, 
+    },
+    [4] = {
+        allTerrainMonster = {
+            title = 'All Terrain Monster',
+            wheels = {
+                { title = 'All Terrain Monster - Painted', id = 31 },
+            },
+        },
+        amazon = {
+            title = 'Amazon',
+            wheels = {
+                { title = 'Amazon - Painted', id = 4 },
+                { title = 'Amazon - Chrome', id= 14 },
+            },
+        },
+        avalance = {
+            title = 'Avalance',
+            wheels = {
+                { title = 'Avalance - Painted', id = 26 },
+            },
+        },
+        cairngorm = {
+            title = 'Cairngorm',
+            wheels = {
+                { title = 'Cairngorm - Painted', id = 3 },
+                { title = 'Cairngorm - Chrome', id= 13 },
+            },
+        },
+        challenger = {
+            title = 'Challenger',
+            wheels = {
+                { title = 'Challenger - Painted', id = 5 },
+                { title = 'Challenger - Chrome', id= 15 },
+            },
+        },
+        concave5 = {
+            title = 'Concave 5',
+            wheels = {
+                { title = 'Concave 5 - Painted', id = 29 },
+            },
+        },
+        concaveRallyMaster = {
+            title = 'Concave Rally Master',
+            wheels = {
+                { title = 'Concave Rally Master - Painted', id = 33 },
+            },
+        },
+        concaveSteelie = {
+            title = 'Concave Steelie',
+            wheels = {
+                { title = 'Concave Steelie  - Painted', id = 22 },
+            },
+        },
+        dragSPL = {
+            title = 'Drag SPL',
+            wheels = {
+                { title = 'Drag SPL - Painted', id = 32 },
+            },
+        },
+        dukes = {
+            title = 'Dukes',
+            wheels = {
+                { title = 'Dukes - Painted', id = 25 },
+            },
+        },
+        duneBasher = {
+            title = 'Dune Basher',
+            wheels = {
+                { title = 'Dune Basher - Painted', id = 6 },
+                { title = 'Dune Basher - Chrome', id = 16 },
+            },
+        },
+        fiveStar = {
+            title = 'Five Star',
+            wheels = {
+                { title = 'Five Star - Painted', id = 6 },
+                { title = 'Five Star - Chrome', id = 16 },
+            },
+        },
+        flatSix = {
+            title = 'Flat Six',
+            wheels = {
+                { title = 'Flat Six - Painted', id = 30 },
+            },
+        },
+        heavyDutySteelie = {
+            title = 'Heavy Duty Steelie',
+            wheels = {
+                { title = 'Heavy Duty Steelie  - Painted', id = 21 },
+            },
+        },
+        lightweight = {
+            title = 'Lightweight Steelie',
+            wheels = {
+                { title = 'Lightweight Steelie  - Painted', id = 24 },
+            },
+        },
+        milSpec = {
+            title = 'Mil Spec Steelie',
+            wheels = {
+                { title = 'Mil Spec Steelie  - Painted', id = 9 },
+                { title = 'Mil Spec Steelie  - Chrome', id = 19 },
+            },
+        },
+        mountainMan = {
+            title = 'Mountain Man',
+            wheels = {
+                { title = 'Mountain Man  - Painted', id = 27 },
+            },
+        },
+        mudslinger = {
+            title = 'Mudslinger',
+            wheels = {
+                { title = 'Mudslinger  - Painted', id = 1 },
+                { title = 'Mudslinger  - Chrome', id = 11 },
+            },
+        },
+        nevis = {
+            title = 'Nevis',
+            wheels = {
+                { title = 'Nevis  - Painted', id = 2 },
+                { title = 'Nevis  - Chrome', id = 12 },
+            },
+        },
+        policeIssueSteelie = {
+            title = 'Police Issue Steelie',
+            wheels = {
+                { title = 'Police Issue Steelie  - Painted', id = 23 },
+            },
+        },
+        raider = {
+            title = 'Raider',
+            wheels = {
+                { title = 'Raider  - Painted', id = 10 },
+            },
+        },
+        retroSteelie = {
+            title = 'Retro Steelie',
+            wheels = {
+                { title = 'Retro Steelie  - Painted', id = 20 },
+            },
+        },
+        ridgeClimber = {
+            title = 'Ridge Climber',
+            wheels = {
+                { title = 'Ridge Climber  - Painted', id = 28 },
+            },
+        },
+        rockCrawler = {
+            title = 'Rock Crawler',
+            wheels = {
+                { title = 'Rock Crawler  - Painted', id = 8 },
+                { title = 'Rock Crawler  - Chrome', id = 18 },
+            },
+        },
+        ruggedSnowflake = {
+            title = 'Rugged Snowflake',
+            wheels = {
+                { title = 'Rugged Snowflake  - Painted', id = 34 },
+            },
+        },
+    },
+    [5] = {
+        apex = {
+            title = 'Apex',
+            wheels = {
+                { title = 'Apex - Painted', id = 10 },
+                { title = 'Apex - Chrome', id = 34 },
+            },
+        },
+        battleVIII = {
+            title = 'Battle VIII',
+            wheels = {
+                { title = 'Battle VIII - Painted', id = 22 },
+                { title = 'Battle VIII - Chrome', id = 46 },
+            },
+        },
+        chicane = {
+            title = 'Chicane',
+            wheels = {
+                { title = 'Chicane - Painted', id = 17 },
+                { title = 'Chicane - Chrome', id = 41 },
+            },
+        },
+        chokuDori = {
+            title = 'Choku-Dori',
+            wheels = {
+                { title = 'Choku-Dori - Painted', id = 16 },
+                { title = 'Choku-Dori - Chrome', id = 40 },
+            },
+        },
+        cosmo = {
+            title = 'cosmo',
+            wheels = {
+                { title = 'cosmo - Chrome', id = 24 },
+            },
+        },
+        countersteer = {
+            title = 'Countersteer',
+            wheels = {
+                { title = 'Countersteer - Painted', id = 12 },
+                { title = 'Countersteer - Chrome', id = 36 },
+            },
+        },
+        dishedEight = {
+            title = 'Dished Eight',
+            wheels = {
+                { title = 'Dished Eight - Painted', id = 19 },
+                { title = 'Dished Eight - Chrome', id = 43 },
+            },
+        },
+        driftMeister = {
+            title = 'Drift Meister',
+            wheels = {
+                { title = 'Drift Meister - Painted', id = 4 },
+                { title = 'Drift Meister - Chrome', id = 28 },
+            },
+        },
+        dubbed = {
+            title = 'Dubbed',
+            wheels = {
+                { title = 'Dubbed - Painted', id = 7 },
+                { title = 'Dubbed - Chrome', id = 31 },
+            },
+        },
+        elQuatro = {
+            title = 'El Quatro',
+            wheels = {
+                { title = 'El Quatro - Painted', id = 6 },
+                { title = 'El Quatro - Chrome', id = 30 },
+            },
+        },
+        endoV1 = {
+            title = 'Endo V1',
+            wheels = {
+                { title = 'Endo V1 - Painted', id = 13 },
+                { title = 'Endo V1 - Chrome', id = 37 },
+            },
+        },
+        endoV2Dish = {
+            title = 'Endo V2 Dish',
+            wheels = {
+                { title = 'Endo V2 Dish - Painted', id = 14 },
+                { title = 'Endo V2 Dish - Chrome', id = 38 },
+            },
+        },
+        fiveStar = {
+            title = 'Five Star',
+            wheels = {
+                { title = 'Five Star - Painted', id = 32 },
+                { title = 'Five Star - Chrome', id = 8 },
+            },
+        },
+        fujiwara = {
+            title = 'Fujiwara',
+            wheels = {
+                { title = 'Fujiwara - Painted', id = 20 },
+                { title = 'Fujiwara - Chrome', id = 44 },
+            },
+        },
+        gruppeZ = {
+            title = 'Gruppe Z',
+            wheels = {
+                { title = 'Gruppe Z - Painted', id = 15 },
+                { title = 'Gruppe Z - Chrome', id = 39 },
+            },
+        },
+        stanceCityVIP = {
+            title = 'StanceCity VIP',
+            wheels = {
+                { title = 'StanceCity VIP - Chrome', id = 48 },
+            },
+        },
+        outsider = {
+            title = 'Outsider',
+            wheels = {
+                { title = 'Outsider - Painted', id = 2 },
+                { title = 'Outsider - Chrome', id = 26 },
+            },
+        },
+        rallyMaster = {
+            title = 'Rally Master',
+            wheels = {
+                { title = 'Rally Master - Painted', id = 23 },
+                { title = 'Rally Master - Chrome', id = 47 },
+            },
+        },
+        rollas = {
+            title = 'Rollas',
+            wheels = {
+                { title = 'Rollas - Painted', id = 3 },
+                { title = 'Rollas - Chrome', id = 27 },
+            },
+        },
+        saisoku = {
+            title = 'Saisoku',
+            wheels = {
+                { title = 'Saisoku - Painted', id = 18 },
+                { title = 'Saisoku - Chrome', id = 42 },
+            },
+        },
+        slicer = {
+            title = 'Slicer',
+            wheels = {
+                { title = 'Slicer - Painted', id = 5 },
+                { title = 'Slicer - Chrome', id = 29 },
+            },
+        },
+        slideways = {
+            title = 'Slideways',
+            wheels = {
+                { title = 'Slideways - Painted', id = 9 },
+                { title = 'Slideways - Chrome', id = 33 },
+            },
+        },
+        stancedEG = {
+            title = 'Stanced EG',
+            wheels = {
+                { title = 'Stanced EG - Painted', id = 11 },
+                { title = 'Stanced EG - Chrome', id = 35 },
+            },
+        },
+        superMesh = {
+            title = 'Super Mesh',
+            wheels = {
+                { title = 'Super Mesh - Painted', id = 1 },
+                { title = 'Super Mesh - Chrome', id = 25 },
+            },
+        },
+        zokusha = {
+            title = 'Zokusha',
+            wheels = {
+                { title = 'Zokusha - Painted', id = 21 },
+                { title = 'Zokusha - Chrome', id = 45 },
+            },
+        },
+    },
+    [6] = {
+        bigSpokes = {
+            title = 'Big Spokes',
+            wheels = {
+                { title = 'Big Spokes - Painted', id = 44 },
+                { title = 'Big Spokes - Chrome', id = 67 },
+            },
+        },
+        bobber = {
+            title = 'Bobber',
+            wheels = {
+                { title = 'Bobber - Painted', id = 9 },
+                { title = 'Bobber - Chrome', id = 22 },
+            },
+        },
+        bobsta = {
+            title = 'Bobsta',
+            wheels = {
+                { title = 'Bobsta - Painted', id = 47 },
+                { title = 'Bobsta - Chrome', id = 70 },
+            },
+        },
+        cartwheel = {
+            title = 'Cartwheel',
+            wheels = {
+                { title = 'Cartwheel - Painted', id = 33 },
+                { title = 'Cartwheel - Chrome', id = 56 },
+            },
+        },
+        celtic = {
+            title = 'Celtic',
+            wheels = {
+                { title = 'Celtic - Painted', id = 37 },
+                { title = 'Celtic - Chrome', id = 60 },
+            },
+        },
+        doubleFive = {
+            title = 'Double Five',
+            wheels = {
+                { title = 'Double Five - Painted', id = 34 },
+                { title = 'Double Five - Chrome', id = 57 },
+            },
+        },
+        eidolon = {
+            title = 'Eidolon',
+            wheels = {
+                { title = 'Eidolon - Painted', id = 42 },
+                { title = 'Eidolon - Chrome', id = 65 },
+            },
+        },
+        enigma = {
+            title = 'Enigma',
+            wheels = {
+                { title = 'Enigma - Painted', id = 43 },
+                { title = 'Enigma - Chrome', id = 66 },
+            },
+        },
+        futura = {
+            title = 'Futura',
+            wheels = {
+                { title = 'Futura - Painted', id = 31 },
+                { title = 'Futura - Chrome', id = 54 },
+            },
+        },
+        grouch = {
+            title = 'Grouch',
+            wheels = {
+                { title = 'Grouch - Painted', id = 71 },
+            },
+        },
+        holySpoke = {
+            title = 'Holy Spoke',
+            wheels = {
+                { title = 'Holy Spoke - Painted', id = 29 },
+                { title = 'Holy Spoke - Chrome', id = 52 },
+            },
+        },
+        hotPlate = {
+            title = 'Hot Plate',
+            wheels = {
+                { title = 'Hot Plate - Painted', id = 29 },
+                { title = 'Hot Plate - Chrome', id = 52 },
+            },
+        },
+        iceShield = {
+            title = 'Ice Shield',
+            wheels = {
+                { title = 'Ice Shield - Painted', id = 11 },
+                { title = 'Ice Shield - Chrome', id = 24 },
+            },
+        },
+        jaggedSpokes = {
+            title = 'Jagged Spokes',
+            wheels = {
+                { title = 'Jagged Spokes - Painted', id = 41 },
+                { title = 'Jagged Spokes - Chrome', id = 64 },
+            },
+        },
+        loops = {
+            title = 'Loops',
+            wheels = {
+                { title = 'Loops - Painted', id = 12 },
+                { title = 'Loops - Chrome', id = 25 },
+            },
+        },
+        morningStar = {
+            title = 'Morning Star',
+            wheels = {
+                { title = 'Morning Star - Painted', id = 40 },
+                { title = 'Morning Star - Chrome', id = 63 },
+            },
+        },
+        oldSkoolTriple = {
+            title = 'Old Skool Triple',
+            wheels = {
+                { title = 'Old Skool Triple - Painted', id = 30 },
+                { title = 'Old Skool Triple - Chrome', id = 53 },
+            },
+        },
+        overlord = {
+            title = 'Overlord',
+            wheels = {
+                { title = 'Overlord - Painted', id = 4 },
+                { title = 'Overlord - Chrome', id = 17 },
+            },
+        },
+        quaterMileKing = {
+            title = 'Quater Mile King',
+            wheels = {
+                { title = 'Quater Mile King - Painted', id = 32 },
+                { title = 'Quater Mile King - Chrome', id = 55 },
+            },
+        },
+        racer = {
+            title = 'Racer',
+            wheels = {
+                { title = 'Racer - Painted', id = 2 },
+                { title = 'Racer - Chrome', id = 15 },
+            },
+        },
+        razer = {
+            title = 'Razer',
+            wheels = {
+                { title = 'Razer - Painted', id = 38 },
+                { title = 'Razer - Chrome', id = 61 },
+            },
+        },
+        shuriken = {
+            title = 'Romper Racing',
+            wheels = {
+                { title = 'Romper Racing - Painted', id = 26 },
+                { title = 'Romper Racing - Chrome', id = 49 },
+            },
+        },
+        shuriken = {
+            title = 'Shuriken',
+            wheels = {
+                { title = 'Shuriken - Painted', id = 35 },
+                { title = 'Shuriken - Chrome', id = 58 },
+            },
+        },
+        simpleSix = {
+            title = 'Simple Six',
+            wheels = {
+                { title = 'Simple Six - Painted', id = 36 },
+                { title = 'Simple Six - Chrome', id = 59 },
+            },
+        },
+        snowflake = {
+            title = 'Snowflake',
+            wheels = {
+                { title = 'Snowflake - Painted', id = 28 },
+                { title = 'Snowflake - Chrome', id = 51 },
+            },
+        },
+        solidus = {
+            title = 'Solidus',
+            wheels = {
+                { title = 'Solidus - Painted', id = 10 },
+                { title = 'Solidus - Chrome', id = 23 },
+            },
+        },
+        speedway = {
+            title = 'Speedway',
+            wheels = {
+                { title = 'Speedway - Painted', id = 13 },
+            },
+        },
+        stilleto = {
+            title = 'Stilleto',
+            wheels = {
+                { title = 'Stilleto - Painted', id = 7 },
+                { title = 'Stilleto - Chrome', id = 20 },
+            },
+        },
+        streetSpecial = {
+            title = 'Street Special',
+            wheels = {
+                { title = 'Street Special - Painted', id = 1 },
+                { title = 'Street Special - Chrome', id = 14 },
+            },
+        },
+        trackStar = {
+            title = 'Track Star',
+            wheels = {
+                { title = 'Track Star - Painted', id = 3 },
+                { title = 'Track Star - Chrome', id = 16 },
+            },
+        },
+        trident = {
+            title = 'Trident',
+            wheels = {
+                { title = 'Trident - Painted', id = 5 },
+                { title = 'Trident - Chrome', id = 18 },
+            },
+        },
+        tripleThreat = {
+            title = 'Triple Threat',
+            wheels = {
+                { title = 'Triple Threat - Painted', id = 6 },
+                { title = 'Triple Threat - Chrome', id = 19 },
+            },
+        },
+        twisted = {
+            title = 'Twisted',
+            wheels = {
+                { title = 'Twisted - Painted', id = 39 },
+                { title = 'Twisted - Chrome', id = 62 },
+            },
+        },
+        warpDrive = {
+            title = 'Warp Drive',
+            wheels = {
+                { title = 'Warp Drive - Painted', id = 50 },
+                { title = 'Warp Drive - Chrome', id = 27 },
+            },
+        },
+        webs = {
+            title = 'Webs',
+            wheels = {
+                { title = 'Webs - Painted', id = 45 },
+                { title = 'Webs - Chrome', id = 68 },
+            },
+        },
+        wires = {
+            title = 'Wires',
+            wheels = {
+                { title = 'Wires - Painted', id = 8 },
+                { title = 'Wires - Chrome', id = 21 },
+            },
+        },
+    },
+    [7] = {
+        blade = {
+            title = 'Blade',
+            wheels = {
+                { title = 'Blade - Painted', id = 2 },
+                { title = 'Blade - Chrome', id = 22 },
+            },
+        },
+        carbonInferno = {
+            title = 'Carbon Inferno',
+            wheels = {
+                { title = 'Carbon Inferno - Painted', id = 14 },
+                { title = 'Carbon Inferno - Chrome', id = 34 },
+            },
+        },
+        carbonSRacer = {
+            title = 'Carbon S Racer',
+            wheels = {
+                { title = 'Carbon S Racer - Painted', id = 19 },
+                { title = 'Carbon S Racer - Chrome', id = 39 },
+            },
+        },
+        carbonShadow = {
+            title = 'Carbon Shadow',
+            wheels = {
+                { title = 'Carbon Shadow - Painted', id = 15 },
+                { title = 'Carbon Shadow - Chrome', id = 35 },
+            },
+        },
+        carbonSolar = {
+            title = 'Carbon Solar',
+            wheels = {
+                { title = 'Carbon Solar - Painted', id = 17 },
+                { title = 'Carbon Solar - Chrome', id = 37 },
+            },
+        },
+        carbononicZ = {
+            title = 'Carbononic Z',
+            wheels = {
+                { title = 'Carbononic Z - Painted', id = 16 },
+                { title = 'Carbononic Z - Chrome', id = 36 },
+            },
+        },
+        cheetahCarbonR = {
+            title = 'Cheetah Carbon R',
+            wheels = {
+                { title = 'Cheetah Carbon R - Painted', id = 18 },
+                { title = 'Cheetah Carbon R - Chrome', id = 38 },
+            },
+        },
+        cheetahRR = {
+            title = 'cheetah RR',
+            wheels = {
+                { title = 'cheetah RR - Painted', id = 29 },
+                { title = 'cheetah RR - Chrome', id = 9 },
+            },
+        },
+        chromaticZ = {
+            title = 'Chromatic Z',
+            wheels = {
+                { title = 'Chromatic Z - Painted', id = 5 },
+                { title = 'Chromatic Z - Chrome', id = 25 },
+            },
+        },
+        DashVIP = {
+            title = 'Dash VIP',
+            wheels = {
+                { title = 'Dash VIP - Painted', id = 12 },
+                { title = 'Dash VIP - Chrome', id = 32 },
+            },
+        },
+        diamond = {
+            title = 'Diamond',
+            wheels = {
+                { title = 'Diamond - Painted', id = 3 },
+                { title = 'Diamond - Chrome', id = 23 },
+            },
+        },
+        gtChrome = {
+            title = 'GT Chrome',
+            wheels = {
+                { title = 'GT Chrome - Painted', id = 8 },
+                { title = 'GT Chrome - Chrome', id = 28 },
+            },
+        },
+        hypher = {
+            title = 'Hypher',
+            wheels = {
+                { title = 'Hypher - Painted', id = 1 },
+                { title = 'Hypher - Chrome', id = 21 },
+            },
+        },
+        lozspeedTen = {
+            title = 'Lozspeed Ten',
+            wheels = {
+                { title = 'Lozspeed Ten - Painted', id = 13 },
+                { title = 'Lozspeed Ten - Chrome', id = 33 },
+            },
+        },
+        mercie = {
+            title = 'Mercie',
+            wheels = {
+                { title = 'Mercie - Painted', id = 26 },
+            },
+        },
+        obeyRS = {
+            title = 'Obey RS',
+            wheels = {
+                { title = 'Obey RS - Painted', id = 7 },
+                { title = 'Obey RS - Chrome', id = 27 },
+            },
+        },
+        shadow = {
+            title = 'Shadow',
+            wheels = {
+                { title = 'Shadow - Chrome', id = 20 },
+            },
+        },
+        solar = {
+            title = 'Solar',
+            wheels = {
+                { title = 'Solar - Painted', id = 10 },
+                { title = 'Solar - Chrome', id = 30 },
+            },
+        },
+        splitTen = {
+            title = 'Split Ten',
+            wheels = {
+                { title = 'Split Ten - Painted', id = 11 },
+                { title = 'Split Ten - Chrome', id = 31 },
+            },
+        },
+        supaGee = {
+            title = 'Supa Gee',
+            wheels = {
+                { title = 'Supa Gee - Painted', id = 4 },
+                { title = 'Supa Gee - Chrome', id = 24 },
+            },
+        },
+    },
+    [11] = {
+        aeroStar = {
+            title = 'Aero Star',
+            wheels = {
+                { title = 'Aero Star - Blank', id = 13 },
+                { title = 'Aero Star - Atomic White', id = 43 },
+                { title = 'Aero Star - Atomic Yellow', id = 73 },
+                { title = 'Aero Star - Fukaru White', id = 103 },
+                { title = 'Aero Star - Fukaru Red', id = 133 },
+                { title = 'Aero Star - Chepalle Yellow', id = 163 },
+                { title = 'Aero Star - Chepalle Green', id = 193 },
+            },
+        },
+        bigMamba = {
+            title = 'Big Mamba',
+            wheels = {
+                { title = 'Big Mamba - Blank', id = 23 },
+                { title = 'Big Mamba - Atomic White', id = 53 },
+                { title = 'Big Mamba - Atomic Yellow', id = 83 },
+                { title = 'Big Mamba - Fukaru White', id = 113 },
+                { title = 'Big Mamba - Fukaru Red', id = 143 },
+                { title = 'Big Mamba - Chepalle Yellow', id = 173 },
+                { title = 'Big Mamba - Chepalle Green', id = 203 },
+            },
+        },
+        cosmo2 = {
+            title = 'Cosmo MK II',
+            wheels = {
+                { title = 'Cosmo MK II - Blank', id = 12 },
+                { title = 'Cosmo MK II - Atomic White', id = 42 },
+                { title = 'Cosmo MK II - Atomic Yellow', id = 72 },
+                { title = 'Cosmo MK II - Fukaru White', id = 102 },
+                { title = 'Cosmo MK II - Fukaru Red', id = 132 },
+                { title = 'Cosmo MK II - Chepalle Yellow', id = 162 },
+                { title = 'Cosmo MK II - Chepalle Green', id = 192 },
+            },
+        },
+        cosmo3 = {
+            title = 'Cosmo MK III',
+            wheels = {
+                { title = 'Cosmo MK III - Blank', id = 25 },
+                { title = 'Cosmo MK III - Atomic White', id = 55 },
+                { title = 'Cosmo MK III - Atomic Yellow', id = 85 },
+                { title = 'Cosmo MK III - Fukaru White', id = 115 },
+                { title = 'Cosmo MK III - Fukaru Red', id = 145 },
+                { title = 'Cosmo MK III - Chepalle Yellow', id = 175 },
+                { title = 'Cosmo MK III - Chepalle Green', id = 205 },
+            },
+        },
+        cupChampion = {
+            title = 'Cup Champion',
+            wheels = {
+                { title = 'Cup Champion - Blank', id = 5 },
+                { title = 'Cup Champion - Atomic White', id = 35 },
+                { title = 'Cup Champion - Atomic Yellow', id = 65 },
+                { title = 'Cup Champion - Fukaru White',id =  95 },
+                { title = 'Cup Champion - Fukaru Red', id = 125 },
+                { title = 'Cup Champion - Chepalle Yellow', id = 155 },
+                { title = 'Cup Champion - Chepalle Green', id = 185 },
+            },
+        },
+        deepFlake = {
+            title = 'Deep Flake',
+            wheels = {
+                { title = 'Deep Flake - Blank', id = 4 },
+                { title = 'Deep Flake - Atomic White', id = 54 },
+                { title = 'Deep Flake - Atomic Yellow', id = 84 },
+                { title = 'Deep Flake - Fukaru White', id = 114 },
+                { title = 'Deep Flake - Fukaru Red', id = 144 },
+                { title = 'Deep Flake - Chepalle Yellow', id = 174 },
+                { title = 'Deep Flake - Chepalle Green', id = 204 },
+            },
+        },
+        deepFlakeR = {
+            title = 'Deep Flake Reverse',
+            wheels = {
+                { title = 'Deep Flake Reverse - Blank', id = 7 },
+                { title = 'Deep Flake Reverse - Atomic White', id = 57 },
+                { title = 'Deep Flake Reverse - Atomic Yellow', id = 87 },
+                { title = 'Deep Flake Reverse - Fukaru White', id = 117 },
+                { title = 'Deep Flake Reverse - Fukaru Red', id = 147 },
+                { title = 'Deep Flake Reverse - Chepalle Yellow', id = 177 },
+                { title = 'Deep Flake Reverse - Chepalle Green', id = 207 },
+            },
+        },
+        egCustom = {
+            title = 'EG Custom',
+            wheels = {
+                { title = 'EG Custom - Blank', id = 6 },
+                { title = 'EG Custom - Atomic White', id = 36 },
+                { title = 'EG Custom - Atomic Yellow', id = 66 },
+                { title = 'EG Custom - Fukaru White',id =  96 },
+                { title = 'EG Custom - Fukaru Red', id = 126 },
+                { title = 'EG Custom - Chepalle Yellow', id = 156 },
+                { title = 'EG Custom - Chepalle Green', id = 186 },
+            },
+        },
+        endoV4 = {
+            title = 'Endo V4 Dished',
+            wheels = {
+                { title = 'Endo V4 Dished - Blank', id = 19 },
+                { title = 'Endo V4 Dished - Atomic White', id = 49 },
+                { title = 'Endo V4 Dished - Atomic Yellow', id = 79 },
+                { title = 'Endo V4 Dished - Fukaru White', id = 109 },
+                { title = 'Endo V4 Dished - Fukaru Red', id = 139 },
+                { title = 'Endo V4 Dished - Chepalle Yellow', id = 169 },
+                { title = 'Endo V4 Dished - Chepalle Green', id = 199 },
+            },
+        },
+        fujiwara = {
+            title = 'Fujiwara',
+            wheels = {
+                { title = 'Fujiwara - Blank', id = 11 },
+                { title = 'Fujiwara - Atomic White', id = 41 },
+                { title = 'Fujiwara - Atomic Yellow', id = 71 },
+                { title = 'Fujiwara - Fukaru White', id = 101 },
+                { title = 'Fujiwara - Fukaru Red', id = 131 },
+                { title = 'Fujiwara - Chepalle Yellow', id = 161 },
+                { title = 'Fujiwara - Chepalle Green', id = 191 },
+            },
+        },
+        hypeFive = {
+            title = 'Hype Five',
+            wheels = {
+                { title = 'Hype Five - Blank', id = 14 },
+                { title = 'Hype Five - Atomic White', id = 44 },
+                { title = 'Hype Five - Atomic Yellow', id = 74 },
+                { title = 'Hype Five - Fukaru White', id = 104 },
+                { title = 'Hype Five - Fukaru Red', id = 134 },
+                { title = 'Hype Five - Chepalle Yellow', id = 164 },
+                { title = 'Hype Five - Chepalle Green', id = 194 },
+            },
+        },
+        hyperfresh = {
+            title = 'Hyperfresh',
+            wheels = {
+                { title = 'Hyperfresh - Blank', id = 20 },
+                { title = 'Hyperfresh - Atomic White', id = 50 },
+                { title = 'Hyperfresh - Atomic Yellow', id = 80 },
+                { title = 'Hyperfresh - Fukaru White', id = 110 },
+                { title = 'Hyperfresh - Fukaru Red', id = 140 },
+                { title = 'Hyperfresh - Chepalle Yellow', id = 170 },
+                { title = 'Hyperfresh - Chepalle Green', id = 200 },
+            },
+        },
+        krackaCustom = {
+            title = 'Kracka Custom',
+            wheels = {
+                { title = 'Kracka Custom - Blank', id = 7 },
+                { title = 'Kracka Custom - Atomic White', id = 37 },
+                { title = 'Kracka Custom - Atomic Yellow', id = 67 },
+                { title = 'Kracka Custom - Fukaru White',id =  97 },
+                { title = 'Kracka Custom - Fukaru Red', id = 127 },
+                { title = 'Kracka Custom - Chepalle Yellow', id = 157 },
+                { title = 'Kracka Custom - Chepalle Green', id = 187 },
+            },
+        },
+        megaMash = {
+            title = 'Mega Mash',
+            wheels = {
+                { title = 'Mega Mesh - Blank', id = 29 },
+                { title = 'Mega Mesh - Atomic White', id = 59 },
+                { title = 'Mega Mesh - Atomic Yellow', id = 89 },
+                { title = 'Mega Mesh - Fukaru White', id = 119 },
+                { title = 'Mega Mesh - Fukaru Red', id = 149 },
+                { title = 'Mega Mesh - Chepalle Yellow', id = 179 },
+                { title = 'Mega Mesh - Chepalle Green', id = 209 },
+            },
+        },
+        mercieConcave = {
+            title = 'Mercie Concave',
+            wheels = {
+                { title = 'Mercie Concave - Blank', id = 16 },
+                { title = 'Mercie Concave - Atomic White', id = 46 },
+                { title = 'Mercie Concave - Atomic Yellow', id = 76 },
+                { title = 'Mercie Concave - Fukaru White', id = 106 },
+                { title = 'Mercie Concave - Fukaru Red', id = 136 },
+                { title = 'Mercie Concave - Chepalle Yellow', id = 166 },
+                { title = 'Mercie Concave - Chepalle Green', id = 196 },
+            },
+        },
+        nebula = {
+            title = 'Nebula',
+            wheels = {
+                { title = 'Nebula - Blank', id = 3 },
+                { title = 'Nebula - Atomic White', id = 33 },
+                { title = 'Nebula - Atomic Yellow', id = 63 },
+                { title = 'Nebula - Fukaru White',id =  93 },
+                { title = 'Nebula - Fukaru Red', id = 123 },
+                { title = 'Nebula - Chepalle Yellow', id = 153 },
+                { title = 'Nebula - Chepalle Green', id = 183 },
+            },
+        },
+        organicType2 = {
+            title = 'Organic Type II',
+            wheels = {
+                { title = 'Organic Type II - Blank', id = 22 },
+                { title = 'Organic Type II - Atomic White', id = 52 },
+                { title = 'Organic Type II - Atomic Yellow', id = 82 },
+                { title = 'Organic Type II - Fukaru White', id = 112 },
+                { title = 'Organic Type II - Fukaru Red', id = 142 },
+                { title = 'Organic Type II - Chepalle Yellow', id = 172 },
+                { title = 'Organic Type II - Chepalle Green', id = 202 },
+            },
+        },
+        concaveRacer = {
+            title = 'Concave Racer',
+            wheels = {
+                { title = 'Concave Racer - Blank', id = 26 },
+                { title = 'Concave Racer - Atomic White', id = 56 },
+                { title = 'Concave Racer - Atomic Yellow', id = 86 },
+                { title = 'Concave Racer - Fukaru White', id = 116 },
+                { title = 'Concave Racer - Fukaru Red', id = 146 },
+                { title = 'Concave Racer - Chepalle Yellow', id = 176 },
+                { title = 'Concave Racer - Chepalle Green', id = 206 },
+            },
+        },
+        ruffWeld = {
+            title = 'Ruff Weld',
+            wheels = {
+                { title = 'Ruff Weld - Blank', id = 45 },
+                { title = 'Ruff Weld - Atomic White', id = 45 },
+                { title = 'Ruff Weld - Atomic Yellow', id = 75 },
+                { title = 'Ruff Weld - Fukaru White', id = 105 },
+                { title = 'Ruff Weld - Fukaru Red', id = 135 },
+                { title = 'Ruff Weld - Chepalle Yellow', id = 165 },
+                { title = 'Ruff Weld - Chepalle Green', id = 195 },
+            },
+        },
+        retroSteelie = {
+            title = 'Retro Steelie',
+            wheels = {
+                { title = 'Retro Steelie - Blank', id = 0 },
+                { title = 'Retro Steelie - Atomic White', id = 30 },
+                { title = 'Retro Steelie - Atomic Yellow', id = 60 },
+                { title = 'Retro Steelie - Fukaru White',id =  90 },
+                { title = 'Retro Steelie - Fukaru Red', id = 120 },
+                { title = 'Retro Steelie - Chepalle Yellow', id = 150 },
+                { title = 'Retro Steelie - Chepalle Green', id = 180 },
+            },
+        },
+        povertySteelie = {
+            title = 'Poverty Steelie',
+            wheels = {
+                { title = 'Poverty Steelie - Blank', id = 1 },
+                { title = 'Poverty Steelie - Atomic White', id = 31 },
+                { title = 'Poverty Steelie - Atomic Yellow', id = 61 },
+                { title = 'Poverty Steelie - Fukaru White',id =  91 },
+                { title = 'Poverty Steelie - Fukaru Red', id = 121 },
+                { title = 'Poverty Steelie - Chepalle Yellow', id = 151 },
+                { title = 'Poverty Steelie - Chepalle Green', id = 181 },
+            },
+        },
+        concaveSteelie = {
+            title = 'Concave Steelie',
+            wheels = {
+                { title = 'Concave Steelie - Blank', id = 2 },
+                { title = 'Concave Steelie - Atomic White', id = 32 },
+                { title = 'Concave Steelie - Atomic Yellow', id = 62 },
+                { title = 'Concave Steelie - Fukaru White',id =  92 },
+                { title = 'Concave Steelie - Fukaru Red', id = 122 },
+                { title = 'Concave Steelie - Chepalle Yellow', id = 152 },
+                { title = 'Concave Steelie - Chepalle Green', id = 182 },
+            },
+        },
+        hotringSteelie = {
+            title = 'Hotring Steelie',
+            wheels = {
+                { title = 'Hotring Steelie - Blank', id = 4 },
+                { title = 'Hotring Steelie - Atomic White', id = 34 },
+                { title = 'Hotring Steelie - Atomic Yellow', id = 64 },
+                { title = 'Hotring Steelie - Fukaru White',id =  94 },
+                { title = 'Hotring Steelie - Fukaru Red', id = 124 },
+                { title = 'Hotring Steelie - Chepalle Yellow', id = 154 },
+                { title = 'Hotring Steelie - Chepalle Green', id = 184 },
+            },
+        },
+        sugioConcave = {
+            title = 'Sugio Concave',
+            wheels = {
+                { title = 'Sugoi Concave - Blank', id = 47 },
+                { title = 'Sugoi Concave - Atomic White', id = 47 },
+                { title = 'Sugoi Concave - Atomic Yellow', id = 77 },
+                { title = 'Sugoi Concave - Fukaru White', id = 107 },
+                { title = 'Sugoi Concave - Fukaru Red', id = 137 },
+                { title = 'Sugoi Concave - Chepalle Yellow', id = 167 },
+                { title = 'Sugoi Concave - Chepalle Green', id = 197 },
+            },
+        },
+        syntheicZConcave = {
+            title = 'Syntheic Z Concave',
+            wheels = {
+                { title = 'Synthetic Z Concave - Blank', id = 18 },
+                { title = 'Synthetic Z Concave - Atomic White', id = 48 },
+                { title = 'Synthetic Z Concave - Atomic Yellow', id = 78 },
+                { title = 'Synthetic Z Concave - Fukaru White', id = 108 },
+                { title = 'Synthetic Z Concave - Fukaru Red', id = 138 },
+                { title = 'Synthetic Z Concave - Chepalle Yellow', id = 168 },
+                { title = 'Synthetic Z Concave - Chepalle Green', id = 198 },
+            },
+        },
+        truffadeConcave = {
+            title = 'Truffade Concave',
+            wheels = {
+                { title = 'Truffade Concave - Blank', id = 21 },
+                { title = 'Truffade Concave - Atomic White', id = 51 },
+                { title = 'Truffade Concave - Atomic Yellow', id = 81 },
+                { title = 'Truffade Concave - Fukaru White', id = 111 },
+                { title = 'Truffade Concave - Fukaru Red', id = 141 },
+                { title = 'Truffade Concave - Chepalle Yellow', id = 171 },
+                { title = 'Truffade Concave - Chepalle Green', id = 201 },
+            },
+        },
+        v8Killer = {
+            title = 'V8 Killer',
+            wheels = {
+                { title = 'V8 Killer - Blank', id = 10 },
+                { title = 'V8 Killer - Atomic White', id = 40 },
+                { title = 'V8 Killer - Atomic Yellow', id = 70 },
+                { title = 'V8 Killer - Fukaru White', id = 100 },
+                { title = 'V8 Killer - Fukaru Red', id = 130 },
+                { title = 'V8 Killer - Chepalle Yellow', id = 160 },
+                { title = 'V8 Killer - Chepalle Green', id = 190 },
+            },
+        },
+        wildWagon = {
+            title = 'Wild Wagon',
+            wheels = {
+                { title = 'Wild Wagon - Blank', id = 28 },
+                { title = 'Wild Wagon - Atomic White', id = 58 },
+                { title = 'Wild Wagon - Atomic Yellow', id = 88 },
+                { title = 'Wild Wagon - Fukaru White', id = 118 },
+                { title = 'Wild Wagon - Fukaru Red', id = 148 },
+                { title = 'Wild Wagon - Chepalle Yellow', id = 178 },
+                { title = 'Wild Wagon - Chepalle Green', id = 208 },
+            },
+        },
+            
+    },
+    [12] = {
+        ninetiesRunning = {
+            title = '90s Running',
+            wheels = {
+                { title = '90s Running - Blank', id = 9 },
+                { title = '90s Running - Atomic White', id = 39 },
+                { title = '90s Running - Atomic Yellow', id = 69 },
+                { title = '90s Running - Fukaru White', id = 99 },
+                { title = '90s Running - Fukaru Red', id = 129 },
+                { title = '90s Running - Chepalle Yellow', id = 159 },
+                { title = '90s Running - Chepalle Green', id = 189 },
+            },
+        },
+        blacktopBlender = {
+            title = 'Blacktop Blender',
+            wheels = {
+                { title = 'Blacktop Blender - Blank', id = 16 },
+                { title = 'Blacktop Blender - Atomic White', id = 46 },
+                { title = 'Blacktop Blender - Atomic Yellow', id = 76 },
+                { title = 'Blacktop Blender - Fukaru White', id = 106 },
+                { title = 'Blacktop Blender - Fukaru Red', id = 136 },
+                { title = 'Blacktop Blender - Chepalle Yellow', id = 166 },
+                { title = 'Blacktop Blender - Chepalle Green', id = 196 },
+            },
+        },
+        conicalTurbofan = {
+            title = 'Conical Turbofan',
+            wheels = {
+                { title = 'Conical Turbofan - Blank', id = 22 },
+                { title = 'Conical Turbofan - Atomic White', id = 52 },
+                { title = 'Conical Turbofan - Atomic Yellow', id = 82 },
+                { title = 'Conical Turbofan - Fukaru White', id = 112 },
+                { title = 'Conical Turbofan - Fukaru Red', id = 142 },
+                { title = 'Conical Turbofan - Chepalle Yellow', id = 172 },
+                { title = 'Conical Turbofan - Chepalle Green', id = 202 },
+            },
+        },
+        dinkaSPL = {
+            title = 'Dinka SPL',
+            wheels = {
+                { title = 'Dinka SPL - Blank', id = 20 },
+                { title = 'Dinka SPL - Atomic White', id = 50 },
+                { title = 'Dinka SPL - Atomic Yellow', id = 80 },
+                { title = 'Dinka SPL - Fukaru White', id = 110 },
+                { title = 'Dinka SPL - Fukaru Red', id = 140 },
+                { title = 'Dinka SPL - Chepalle Yellow', id = 170 },
+                { title = 'Dinka SPL - Chepalle Green', id = 200 },
+            },
+        },
+        exos = {
+            title = 'Exos',
+            wheels = {
+                { title = 'Exos - Blank', id = 11 },
+                { title = 'Exos - Atomic White', id = 41 },
+                { title = 'Exos - Atomic Yellow', id = 71 },
+                { title = 'Exos - Fukaru White',id =  101 },
+                { title = 'Exos - Fukaru Red', id = 131 },
+                { title = 'Exos - Chepalle Yellow', id = 161 },
+                { title = 'Exos - Chepalle Green', id = 191 },
+            },
+        },
+        expressway = {
+            title = 'Expressway',
+            wheels = {
+                { title = 'Expressway - Blank', id = 18 },
+                { title = 'Expressway - Atomic White', id = 48 },
+                { title = 'Expressway - Atomic Yellow', id = 78 },
+                { title = 'Expressway - Fukaru White', id = 108 },
+                { title = 'Expressway - Fukaru Red', id = 138 },
+                { title = 'Expressway - Chepalle Yellow', id = 168 },
+                { title = 'Expressway - Chepalle Green', id = 198 },
+            },
+        },
+        forged5 = {
+            title = 'Forged 5',
+            wheels = {
+                { title = 'Forged 5 - Blank', id = 6 },
+                { title = 'Forged 5 - Atomic White', id = 36 },
+                { title = 'Forged 5 - Atomic Yellow', id = 66 },
+                { title = 'Forged 5 - Fukaru White', id = 96 },
+                { title = 'Forged 5 - Fukaru Red', id = 116 },
+                { title = 'Forged 5 - Chepalle Yellow', id = 146 },
+                { title = 'Forged 5 - Chepalle Green', id = 176 },
+            },
+        },
+        forgedStar = {
+            title = 'Forged Star',
+            wheels = {
+                { title = 'Forged Star - Blank', id = 26 },
+                { title = 'Forged Star - Atomic White', id = 56 },
+                { title = 'Forged Star - Atomic Yellow', id = 86 },
+                { title = 'Forged Star - Fukaru White', id = 116 },
+                { title = 'Forged Star - Fukaru Red', id = 146 },
+                { title = 'Forged Star - Chepalle Yellow', id = 176 },
+                { title = 'Forged Star - Chepalle Green', id = 206 },
+            },
+        },
+        gigaMesh = {
+            title = 'Giga Mesh',
+            wheels = {
+                { title = 'Giga Mesh - Blank', id = 28 },
+                { title = 'Giga Mesh - Atomic White', id = 58 },
+                { title = 'Giga Mesh - Atomic Yellow', id = 88 },
+                { title = 'Giga Mesh - Fukaru White',id =  118 },
+                { title = 'Giga Mesh - Fukaru Red', id = 148 },
+                { title = 'Giga Mesh - Chepalle Yellow', id = 178 },
+                { title = 'Giga Mesh - Chepalle Green', id = 208 },
+            },
+        },
+        gravelTrap = {
+            title = 'Gravel Trap',
+            wheels = {
+                { title = 'Gravel Trap - Blank', id = 1 },
+                { title = 'Gravel Trap - Atomic White', id = 31 },
+                { title = 'Gravel Trap - Atomic Yellow', id = 61 },
+                { title = 'Gravel Trap - Fukaru White', id = 91 },
+                { title = 'Gravel Trap - Fukaru Red', id = 121 },
+                { title = 'Gravel Trap - Chepalle Yellow', id = 151 },
+                { title = 'Gravel Trap - Chepalle Green', id = 181 },
+            },
+        },
+        hiddenSix = {
+            title = 'Hidden Six',
+            wheels = {
+                { title = 'Hidden Six - Blank', id = 19 },
+                { title = 'Hidden Six - Atomic White', id = 49 },
+                { title = 'Hidden Six - Atomic Yellow', id = 79 },
+                { title = 'Hidden Six - Fukaru White', id = 109 },
+                { title = 'Hidden Six - Fukaru Red', id = 139 },
+                { title = 'Hidden Six - Chepalle Yellow', id = 169 },
+                { title = 'Hidden Six - Chepalle Green', id = 199 },
+            },
+        },
+        highFive = {
+            title = 'High Five',
+            wheels = {
+                { title = 'High Five - Blank', id = 12 },
+                { title = 'High Five - Atomic White', id = 42 },
+                { title = 'High Five - Atomic Yellow', id = 72 },
+                { title = 'High Five - Fukaru White', id = 102 },
+                { title = 'High Five - Fukaru Red', id = 132 },
+                { title = 'High Five - Chepalle Yellow', id = 162 },
+                { title = 'High Five - Chepalle Green', id = 192 },
+            },
+        },
+        iceStorm = {
+            title = 'Ice Storm',
+            wheels = {
+                { title = 'Ice Storm - Blank', id = 23 },
+                { title = 'Ice Storm - Atomic White', id = 53 },
+                { title = 'Ice Storm - Atomic Yellow', id = 83 },
+                { title = 'Ice Storm - Fukaru White', id = 113 },
+                { title = 'Ice Storm - Fukaru Red', id = 143 },
+                { title = 'Ice Storm - Chepalle Yellow', id = 173 },
+                { title = 'Ice Storm - Chepalle Green', id = 203 },
+            },
+        },
+        meshMeister = {
+            title = 'Mesh Meister',
+            wheels = {
+                { title = 'Mesh Meister - Blank', id = 29 },
+                { title = 'Mesh Meister - Atomic White', id = 59 },
+                { title = 'Mesh Meister - Atomic Yellow', id = 89 },
+                { title = 'Mesh Meister - Fukaru White',id =  119 },
+                { title = 'Mesh Meister - Fukaru Red', id = 149 },
+                { title = 'Mesh Meister - Chepalle Yellow', id = 179 },
+                { title = 'Mesh Meister - Chepalle Green', id = 209 },
+            },
+        },
+        modernMash = {
+            title = 'Modern Mash',
+            wheels = {
+                { title = 'Modern Mesh - Blank', id = 25 },
+                { title = 'Modern Mesh - Atomic White', id = 55 },
+                { title = 'Modern Mesh - Atomic Yellow', id = 85 },
+                { title = 'Modern Mesh - Fukaru White', id = 115 },
+                { title = 'Modern Mesh - Fukaru Red', id = 145 },
+                { title = 'Modern Mesh - Chepalle Yellow', id = 175 },
+                { title = 'Modern Mesh - Chepalle Green', id = 205 },
+            },
+        },
+        pepperPot = {
+            title = 'Pepper Pot',
+            wheels = {
+                { title = 'Pepper Pot - Blank', id = 15 },
+                { title = 'Pepper Pot - Atomic White', id = 45 },
+                { title = 'Pepper Pot - Atomic Yellow', id = 75 },
+                { title = 'Pepper Pot - Fukaru White', id = 105 },
+                { title = 'Pepper Pot - Fukaru Red', id = 135 },
+                { title = 'Pepper Pot - Chepalle Yellow', id = 165 },
+                { title = 'Pepper Pot - Chepalle Green', id = 195 },
+            },
+        },
+        pureBusiness = {
+            title = 'Pure Business',
+            wheels = {
+                { title = 'Pure Business - Blank', id = 14},
+                { title = 'Pure Business - Atomic White', id = 44},
+                { title = 'Pure Business - Atomic Yellow', id = 74},
+                { title = 'Pure Business - Fukaru White',id =  104},
+                { title = 'Pure Business - Fukaru Red', id = 134},
+                { title = 'Pure Business - Chepalle Yellow', id = 164},
+                { title = 'Pure Business - Chepalle Green', id = 194},
+            },
+        },
+        rallyMonoBlock = {
+            title = 'Rally Monoblock',
+            wheels = {
+                { title = 'Rally Monoblock - Blank', id = 0 },
+                { title = 'Rally Monoblock - Atomic White', id = 30},
+                { title = 'Rally Monoblock - Atomic Yellow', id = 60},
+                { title = 'Rally Monoblock - Fukaru White', id = 90},
+                { title = 'Rally Monoblock - Fukaru Red', id = 120},
+                { title = 'Rally Monoblock - Chepalle Yellow', id = 150},
+                { title = 'Rally Monoblock - Chepalle Green', id = 18},
+            },
+        },
+        rallyThrowback = {
+            title = 'Rally Throwback',
+            wheels = {
+                { title = 'Rally Throwback - Blank', id = 5 },
+                { title = 'Rally Throwback - Atomic White', id = 35},
+                { title = 'Rally Throwback - Atomic Yellow', id = 65},
+                { title = 'Rally Throwback - Fukaru White', id = 95},
+                { title = 'Rally Throwback - Fukaru Red', id = 125},
+                { title = 'Rally Throwback - Chepalle Yellow', id = 155},
+                { title = 'Rally Throwback - Chepalle Green', id = 185},
+            },
+        },
+        retro3Piece = {
+            title = 'Retro 3 Piece',
+            wheels = {
+                { title = 'Retro 3 Piece - Blank', id = 4 },
+                { title = 'Retro 3 Piece - Atomic White', id = 34 },
+                { title = 'Retro 3 Piece - Atomic Yellow', id = 64 },
+                { title = 'Retro 3 Piece - Fukaru White', id = 94 },
+                { title = 'Retro 3 Piece - Fukaru Red', id = 124 },
+                { title = 'Retro 3 Piece - Chepalle Yellow', id = 154 },
+                { title = 'Retro 3 Piece - Chepalle Green', id = 184 },
+            },
+        },
+        retroTurbofan = {
+            title = 'Retro Turbofan',
+            wheels = {
+                { title = 'Retro Turbofan - Blank', id = 21 },
+                { title = 'Retro Turbofan - Atomic White', id = 51 },
+                { title = 'Retro Turbofan - Atomic Yellow', id = 81 },
+                { title = 'Retro Turbofan - Fukaru White', id = 111 },
+                { title = 'Retro Turbofan - Fukaru Red', id = 141 },
+                { title = 'Retro Turbofan - Chepalle Yellow', id = 171 },
+                { title = 'Retro Turbofan - Chepalle Green', id = 201 },
+            },
+        },
+        snowflake = {
+            title = 'Snowflake',
+            wheels = {
+                { title = 'Snowflake - Blank', id = 27 },
+                { title = 'Snowflake - Atomic White', id = 57 },
+                { title = 'Snowflake - Atomic Yellow', id = 87 },
+                { title = 'Snowflake - Fukaru White', id = 117 },
+                { title = 'Snowflake - Fukaru Red', id = 147 },
+                { title = 'Snowflake - Chepalle Yellow', id = 177 },
+                { title = 'Snowflake - Chepalle Green', id = 207 },
+            },
+        },
+        speedBoy = {
+            title = 'Speed Boy',
+            wheels = {
+                { title = 'Speed Boy - Blank', id = 8 },
+                { title = 'Speed Boy - Atomic White', id = 38 },
+                { title = 'Speed Boy - Atomic Yellow', id = 68 },
+                { title = 'Speed Boy - Fukaru White',id =  98 },
+                { title = 'Speed Boy - Fukaru Red', id = 128 },
+                { title = 'Speed Boy - Chepalle Yellow', id = 158 },
+                { title = 'Speed Boy - Chepalle Green', id = 188 },
+            },
+        },
+        splitStar = {
+            title = 'Split Star',
+            wheels = {
+                { title = 'Split Star - Blank', id = 7 },
+                { title = 'Split Star - Atomic White', id = 37 },
+                { title = 'Split Star - Atomic Yellow', id = 67 },
+                { title = 'Split Star - Fukaru White',id =  97 },
+                { title = 'Split Star - Fukaru Red', id = 127 },
+                { title = 'Split Star - Chepalle Yellow', id = 157 },
+                { title = 'Split Star - Chepalle Green', id = 187 },
+            },
+        },
+        stoveTopMesh = {
+            title = 'Stove Top Mesh',
+            wheels = {
+                { title = 'Stove Top Mesh - Blank', id = 3 },
+                { title = 'Stove Top Mesh - Atomic White', id = 33 },
+                { title = 'Stove Top Mesh - Atomic Yellow', id = 63 },
+                { title = 'Stove Top Mesh - Fukaru White',id =  93 },
+                { title = 'Stove Top Mesh - Fukaru Red', id = 123 },
+                { title = 'Stove Top Mesh - Chepalle Yellow', id = 153 },
+                { title = 'Stove Top Mesh - Chepalle Green', id = 183 },
+            },
+        },
+        stoveTop = {
+            title = 'Stove Top',
+            wheels = {
+                { title = 'Stove Top - Blank', id = 2 },
+                { title = 'Stove Top - Atomic White', id = 32 },
+                { title = 'Stove Top - Atomic Yellow', id = 62 },
+                { title = 'Stove Top - Fukaru White',id =  92 },
+                { title = 'Stove Top - Fukaru Red', id = 122 },
+                { title = 'Stove Top - Chepalle Yellow', id = 152 },
+                { title = 'Stove Top - Chepalle Green', id = 182 },
+            },
+        },
+        superLuxe = {
+            title = 'Super Luxe',
+            wheels = {
+                { title = 'Super Luxe - Blank', id = 13 },
+                { title = 'Super Luxe - Atomic White', id = 43 },
+                { title = 'Super Luxe - Atomic Yellow', id = 73 },
+                { title = 'Super Luxe - Fukaru White',id =  103 },
+                { title = 'Super Luxe - Fukaru Red', id = 133 },
+                { title = 'Super Luxe - Chepalle Yellow', id = 163 },
+                { title = 'Super Luxe - Chepalle Green', id = 193 },
+            },
+        },
+        superTurbine = {
+            title = 'Super Turbine',
+            wheels = {
+                { title = 'Super Turbine - Blank', id = 24 },
+                { title = 'Super Turbine - Atomic White', id = 54 },
+                { title = 'Super Turbine - Atomic Yellow', id = 84 },
+                { title = 'Super Turbine - Fukaru White',id =  114 },
+                { title = 'Super Turbine - Fukaru Red', id = 144 },
+                { title = 'Super Turbine - Chepalle Yellow', id = 174 },
+                { title = 'Super Turbine - Chepalle Green', id = 204 },
+            },
+        },
+        throwback = {
+            title = 'Throwback',
+            wheels = {
+                { title = 'Throwback - Blank', id = 17 },
+                { title = 'Throwback - Atomic White', id = 47 },
+                { title = 'Throwback - Atomic Yellow', id = 77 },
+                { title = 'Throwback - Fukaru White',id =  107 },
+                { title = 'Throwback - Fukaru Red', id = 137 },
+                { title = 'Throwback - Chepalle Yellow', id = 167 },
+                { title = 'Throwback - Chepalle Green', id = 197 },
+            },
+        },
+        tropos = {
+            title = 'Tropos',
+            wheels = {
+                { title = 'Tropos - Blank', id = 10 },
+                { title = 'Tropos - Atomic White', id = 40 },
+                { title = 'Tropos - Atomic Yellow', id = 70 },
+                { title = 'Tropos - Fukaru White',id =  100 },
+                { title = 'Tropos - Fukaru Red', id = 130 },
+                { title = 'Tropos - Chepalle Yellow', id = 160 },
+                { title = 'Tropos - Chepalle Green', id = 190 },
+            },
+        },
+            
+    },
+}
