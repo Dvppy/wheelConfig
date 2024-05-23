@@ -1558,7 +1558,7 @@ Config.Wheels = {
         sugioConcave = {
             title = 'Sugio Concave',
             wheels = {
-                { title = 'Sugoi Concave - Blank', id = 47 },
+                { title = 'Sugoi Concave - Blank', id = 18 },
                 { title = 'Sugoi Concave - Atomic White', id = 47 },
                 { title = 'Sugoi Concave - Atomic Yellow', id = 77 },
                 { title = 'Sugoi Concave - Fukaru White', id = 107 },
